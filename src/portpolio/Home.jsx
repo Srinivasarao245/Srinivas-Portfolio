@@ -146,9 +146,7 @@ function Home() {
               <p>Z.P.High School 2014 - 2015</p>
             </div>
           </div>
-       
         </div>
-        
       </div>
       
 
@@ -157,11 +155,11 @@ function Home() {
         <div className="container">
           <h2 className="text-center mb-5">My Projects</h2>
           <div className="row g-4">
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="card h-100 border-0 shadow-sm">
                 <img style={{height:"250px"}}src="" alt="E-commerce Website" className="card-img-top project-img" />
                 <div className="card-body">
-                  <h5 className="card-title">Construction Mart Web App</h5>
+                  <h5 className="card-title"></h5>
                   <p className="card-text text-muted">Designed and developed a web application for a construction materials marketplace, allowing customers to browse and purchase materials from multiple suppliers. The platform features an intuitive user interface with seamless navigation and dynamic interactions.</p>
                   <div className=' d-flex justify-content-between'>
                   <button className='btn btn-outline-warning justify-content-start'><Link  to="" className='text-decoration-none nav-link active'>Git-hub</Link></button> 
@@ -169,8 +167,8 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
+            </div> */}
+            {/* <div className="col-md-4">
             <div className="card h-100 border-0 shadow-sm">
                 <img style={{height:"250px"}} src="https://img.freepik.com/premium-photo/online-loan-application-form-modish-digital-information-collection_31965-49609.jpg" alt="E-commerce Website" className="card-img-top project-img" />
                 <div className="card-body">
@@ -182,16 +180,16 @@ function Home() {
                   </div>
                 </div>
             </div>
-            </div>  
+            </div>   */}
             <div className="col-md-4">
             <div className="card h-100 border-0 shadow-sm">
-                <img style={{height:"250px"}} src="" alt="E-commerce Website" className="card-img-top project-img" />
+                <img style={{height:"250px",transition: "transform 0.5s ease-in-out", }} src="https://i.pinimg.com/originals/90/a1/d2/90a1d268af04a481fc8c8140a5efc83b.jpg" alt="E-commerce Website" className="card-img-top project-img" />
                 <div className="card-body">
-                  <h5 className="card-title">Resume</h5>
-                  <p className="card-text text-muted"></p>
+                  <h5 className="card-title">Bike Service web</h5>
+                  <p className="card-text text-muted">Our bike garage offers expert repairs, routine maintenance, and top-quality parts to keep your bike running smoothly. From simple fixes to custom upgrades, we provide personalized service for all your cycling needs.</p>
                   <div className='d-flex justify-content-between'>
-                    <button className='btn btn-outline-warning'><Link to="" className='text-decoration-none nav-link active"'>Git-hub</Link></button> 
-                    <button className='btn btn-outline-success'><Link to="" className='text-decoration-none nav-link active'>Live Demo</Link></button>
+                    <button className='btn btn-outline-warning'><Link to="https://github.com/Srinivasarao245/AllApis/tree/main/html/Html%20projects" className='text-decoration-none nav-link active"'>Git-hub</Link></button> 
+                    <button className='btn btn-outline-success'><Link to="https://bike-garriage.netlify.app/" className='text-decoration-none nav-link active'>Live Demo</Link></button>
                   </div>
                 </div>
             </div>
@@ -230,3 +228,5 @@ function Home() {
 }
 
 export default Home;
+
+

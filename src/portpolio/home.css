@@ -135,6 +135,14 @@ body {
     color: white;
     padding: 60px 0;
 }
+.project-img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .project-img:hover {
+    transform: scale(1.1); /* Scales the image to 110% of its original size */
+    opacity: 0.9; /* Slightly fades the image */
+  }
 
 /* Contact Section */
 #contact {
